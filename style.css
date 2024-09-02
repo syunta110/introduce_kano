@@ -1,0 +1,177 @@
+@import url("./reset.css");
+.header {
+    height: 69px;
+    background-color: #B94047;
+    text-align: center;
+    line-height: 69px;
+}
+.flex_test {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bereal {
+    width: 210px;
+    height: 96px;
+    text-align: center;
+    line-height: 96px;
+    background-color: #000000;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+}
+.instagram {
+    width: 210px;
+    height: 96px;
+    text-align: center;
+    line-height: 96px;
+    background: linear-gradient(90deg,#4C64D3, #CF2E92, #F26939, #FFDD83);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+}
+.line {
+    width: 210px;
+    height: 96px;
+    text-align: center;
+    line-height: 96px;
+    background-color: #00b900;
+    color:aliceblue;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+}
+.youtube {
+    width: 210px;
+    height: 96px;
+    text-align: center;
+    line-height: 96px;
+    background-color: red;
+    color:aliceblue;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+}
+.ikigomi {
+    display: inline;
+    height: 161px;
+    background-color: white;
+    line-height: 69px;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    margin: 0 auto;
+    font-size: 40px;
+    position: relative; /* relative positioning allows us to move the element */
+    right: -194px; 
+}
+.syougai {
+    background-color: #B94047;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    padding-left: 100px;
+    height: 100%;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.hobby {
+    background-color: #007BBB;
+    height: 400px;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    padding-left: 100px;
+    font-size: 40px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+.fooder {
+    height: 211px;
+    background-color: #B94047;
+    text-align: center;
+    line-height: 69px;
+    margin-top : 90px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 32px;
+    text-align: left;
+    padding-left: 72px;
+}
+.yousyouki1 {
+    width: 163px;
+    height: 161px;
+
+}
+.yousyouki2 {
+    width: 195px;
+    height: 161px;
+}
+.yousyouki3 {
+    width: 189px;
+    height: 161px;
+}
+.yousyouki4 {
+    width: 266px;
+    height: 190px;
+}
+.hako{
+    display: flex;
+    flex-direction: row;
+    background-color: #B94047;
+    height:auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.tate{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+
+}
+
+
+
+.kasaneru {
+    position: relative;
+}
+.kanousyunta {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    top: 200px;
+    left: 0%;
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+
+    background-color: #fff;
+    height: 300px;
+    width: 733px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    color: #B94047;
+
+    text-align: center;
+    line-height: 300px;
+
+}
+.photo {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.syasintati {
+    flex: auto;
+    justify-content: space-evenly;
+}
