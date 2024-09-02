@@ -1,8 +1,0 @@
-{
-  "name": "introduce_kano",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:syunta110/introduce_kano.git",
-  "author": "syunta <shunta.kano@wasedasai.net>",
-  "license": "MIT"
-}
